@@ -1,34 +1,26 @@
 <script>
-
-$(document).ready(function()
-{
-
-	/*========== DESIGN TEAM 1 SLIDER ==========*/
-	
-	$(function(){
-		$('#design_team1_gallery').bxSlider({
-		pager: true,
-		prevSelector: '#design_team1_gallery_prev',
-		prevImage: 'images/down_arrow_circle_border.png',
-		nextSelector: '#design_team1_gallery_next',
-		nextImage: 'images/down_arrow_circle_border.png',
-		buildPager: function(slideIndex){
-		  switch (slideIndex){
-			case 0:
-			  return '<a href="#"></a>';
-			case 1:
-			  return '<a href="#"></a>';
-			case 2:
-			  return '<a href="#"></a>';
-			case 3:
-			  return '<a href="#"></a>';
-		  }
-		}
-	  });
-	});
-    
-});
-
+    // DESIGN TEAM 1 SLIDER
+    $(function() {
+        $('#design_team1_gallery').bxSlider({
+            pager: true,
+            prevSelector: '#design_team1_gallery_prev',
+            prevImage: 'images/down_arrow_circle_border.png',
+            nextSelector: '#design_team1_gallery_next',
+            nextImage: 'images/down_arrow_circle_border.png',
+            buildPager: function(slideIndex) {
+                switch (slideIndex) {
+                    case 0:
+                        return '<a href="#"></a>';
+                    case 1:
+                        return '<a href="#"></a>';
+                    case 2:
+                        return '<a href="#"></a>';
+                    case 3:
+                        return '<a href="#"></a>';
+                }
+            }
+        });
+    });
 </script>
 
 <ul id="design_team1_gallery" class="team_gallery">
