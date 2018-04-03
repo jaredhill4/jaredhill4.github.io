@@ -115,10 +115,18 @@ $(function(){
 		return false;
 	});
 
-	$.localScroll({
+	$('.subnav').localScroll({
 		offset:0
 	});
-	console.log('local scroll');
+
+	$('.page-scroll-nav').localScroll({
+		lazy:true,
+		offset:0
+	});
+
+	$('.room-markers').localScroll({
+		offset:0
+	});
 
 	$('.slider-home').bxSlider({
 		mode: 'vertical',
