@@ -1,0 +1,6 @@
+# System
+.DS_Store
+._*
+Thumbs.db
+npm-debug.log
+_notes/
