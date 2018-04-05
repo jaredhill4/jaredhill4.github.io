@@ -1,0 +1,49 @@
+/* @license
+ * MyFonts Webfont Build ID 2663460, 2013-10-11T14:23:24-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Trend Sans Four by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/trend/sans-four/
+ * 
+ * Webfont: Trend Sans One by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/trend/sans-one/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2663460
+ * Licensed pageviews: 1,000,000
+ * Webfonts copyright: Copyright (c) 2012 by Daniel Hernandez &amp; Paula nazal. All rights reserved.
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/28a424");
+
+  
+@font-face {
+	font-family: 'TrendSansFour';
+	src: url('../fonts/28A424_0_0.eot');
+	src: url('../fonts/28A424_0_0.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/28A424_0_0.woff') format('woff'),
+		 url('../fonts/28A424_0_0.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+ 
+  
+@font-face {
+	font-family: 'TrendSansOne';
+	src: url('../fonts/28A424_1_0.eot');
+	src: url('../fonts/28A424_1_0.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/28A424_1_0.woff') format('woff'),
+		 url('../fonts/28A424_1_0.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+ 

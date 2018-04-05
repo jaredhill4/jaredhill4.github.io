@@ -1,0 +1,9 @@
+/* HOME PAGE Z-INDEX FIXES */
+
+.intro-scroll-down,
+h1.intro-headline,
+#intro p.lead,
+#calendar,
+#footer{
+	z-index:2005 !important;
+}

@@ -1,0 +1,166 @@
+#home-share{
+	left:0;
+}
+
+#home-share ul{
+	border:solid 1px rgb(8,149,143);
+	border-left:none;
+	top:-90px;
+}
+
+#home-share ul li{
+	border-bottom:solid 1px rgb(8,149,143);
+}
+
+#home-share ul li a{
+	text-indent:-9999px;
+}
+
+#home-share ul li:first-child + li + li + li{
+	border-bottom:none;
+}
+
+#home-share ul li:first-child a, #home-share ul:hover li:first-child a{
+	background-image: url(../img/icons/home-share-icon-share.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#home-share ul li:first-child + li a{
+	background-image: url(../img/icons/home-share-icon-facebook.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#home-share ul li:first-child + li + li a{
+	background-image: url(../img/icons/home-share-icon-twitter.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#home-share ul li:first-child + li + li + li a{
+	background-image: url(../img/icons/home-share-icon-pinterest.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.activity_screen-sidebar-share ul li:first-child + li + li + li{
+	border-right:none;
+}
+
+.activity_screen-sidebar-share ul li:first-child + li a{
+	background-image: url(../img/icons/activity_screen-sidebar-share-icon-facebook.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.activity_screen-sidebar-share ul li:first-child + li + li a{
+	background-image: url(../img/icons/activity_screen-sidebar-share-icon-twitter.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.activity_screen-sidebar-share ul li:first-child + li + li + li a{
+	background-image: url(../img/icons/activity_screen-sidebar-share-icon-pinterest.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.activity_screen-sidebar-share ul li a{
+	text-indent:-9999px;
+}
+
+ul.modal-share-links li:first-child a i{
+	background-image: url(../img/icons/modal-share-icon-facebook.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+ul.modal-share-links li:first-child + li a i{
+	background-image: url(../img/icons/modal-share-icon-twitter.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+ul.modal-share-links li:first-child + li + li a i{
+	background-image: url(../img/icons/modal-share-icon-pinterest.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.activity_screen-meta-share ul:hover{
+	width:92px;
+}
+
+.activity_screen-meta-share ul li:first-child + li,
+.activity_screen-meta-share ul li:first-child + li + li,
+.activity_screen-meta-share ul li:first-child + li + li + li{
+	display:none;
+}
+
+.date-overlay{
+	display:none;
+}
+
+.date:hover .date-overlay{
+	display:block;
+}
+
+.date.current:hover{
+	border:none;
+}
+
+#calendar-nav-top ul li{
+	min-height:25px;
+}
+
+#calendar-nav-top ul li{
+	width:22%;
+}
+
+
+#calendar{
+	background:none;
+}
+
+#activity_screen-overlay{
+}
+
+
+/* equivalent to li:nth-child(2) */
+#calendar-nav-top ul li:first-child + li {
+	width:56%;
+	font-family: 'Trend Sans One';
+	font-size:50px;
+	line-height:100px;
+	text-transform:uppercase;
+	color:rgb(92,204,199);
+}
+
+.date-number{
+	top:1px;
+	left:1px;
+}
+
+.date-overlay-text{
+	padding:10px;
+}
+
+.date-overlay-text p{
+	margin:0;
+}
+
+/* HOME PAGE Z-INDEX FIXES */
+
+header#primary-header{
+	z-index:10000 !important;
+}
+
+
+button.social-cards-sharing i{
+	display:none;
+}
+
+button.social-cards-sharing{
+	padding-left:20px;
+}
