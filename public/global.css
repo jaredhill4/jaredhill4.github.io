@@ -427,6 +427,7 @@ h6,
   background-color: #253235;
   border: solid 1px #1d2629;
   border-radius: 100%;
+  transition: all 0.15s ease-in-out;
 }
 .projects-link a::before,
 .projects-link a::after {
@@ -448,6 +449,18 @@ h6,
   border-bottom: solid 2px var(--color-teal);
   border-right: solid 2px var(--color-teal);
   transform: rotate(45deg);
+}
+.projects-link a:hover span {
+  background-color: #253235;
+  background-color: var(--color-teal);
+  border-color: var(--color-teal);
+}
+.projects-link a:hover::before {
+  background-color: var(--color-white);
+}
+.projects-link a:hover::after {
+  border-bottom-color: var(--color-white);
+  border-right-color: var(--color-white);
 }
 
 .project {
